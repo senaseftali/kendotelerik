@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ismatik", "Ismatik\Ismatik.csproj", "{D7834910-3A70-4C62-8E20-A54694647DBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ismatik.WinForms", "Ismatik\Ismatik.WinForms.csproj", "{D7834910-3A70-4C62-8E20-A54694647DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ismatik.BLL", "Ismatik.BLL\Ismatik.BLL.csproj", "{6686F17D-F55D-4AB9-AB65-86A6AB2BDB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ismatik.DAL", "Ismatik.DAL\Ismatik.DAL.csproj", "{5D13EBEB-2BDE-459B-BB1E-48FBC4EFFB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ismatik.Entities", "Ismatik.ENTİTY\Ismatik.Entities.csproj", "{AF046446-63D2-4923-B929-1C9DAAEC9220}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D7834910-3A70-4C62-8E20-A54694647DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7834910-3A70-4C62-8E20-A54694647DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7834910-3A70-4C62-8E20-A54694647DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6686F17D-F55D-4AB9-AB65-86A6AB2BDB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6686F17D-F55D-4AB9-AB65-86A6AB2BDB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6686F17D-F55D-4AB9-AB65-86A6AB2BDB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6686F17D-F55D-4AB9-AB65-86A6AB2BDB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D13EBEB-2BDE-459B-BB1E-48FBC4EFFB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D13EBEB-2BDE-459B-BB1E-48FBC4EFFB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D13EBEB-2BDE-459B-BB1E-48FBC4EFFB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D13EBEB-2BDE-459B-BB1E-48FBC4EFFB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF046446-63D2-4923-B929-1C9DAAEC9220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF046446-63D2-4923-B929-1C9DAAEC9220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF046446-63D2-4923-B929-1C9DAAEC9220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF046446-63D2-4923-B929-1C9DAAEC9220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

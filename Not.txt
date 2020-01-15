@@ -1,0 +1,5 @@
+.bak dosyası versiyon farkı olabilir mssql2017 kullanıyorum
+veritabında fiyat ve indirimi decimal tutmadım 
+aynı kelimeyi arka arkaya arattınızda aynı ürünleri ekliyor veritabanı gereksiz büyüyor bunun kontrolünü yapmadım
+indirim sizin attığınız videoda boştu ben onlarıda çektim fakat doğru değil null olanların yerine kayıt atıyor bunu düzeltmedim
+bilginize
